@@ -83,3 +83,7 @@ main#homepage {
     align-items: center;
     justify-content: space-between;
 }
+
+button.gc {
+    margin-bottom: 1rem;
+}

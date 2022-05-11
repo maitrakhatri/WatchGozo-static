@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>WatchGozo | Log-In</title>
+    <link rel="stylesheet" href="../CSS/auth.css">
+</head>
+<body>
+
+    <nav class="navbar bg-yellow">
+        <div class="navbar-header">
+            <a href="../index.html"><p class="navbar-header-title text-l text-gray">WatchGozo</p></a>
+        </div>
+    
+        <div class="navbar-links">
+            <a href="./videoListing.html"><p class="category-chip text-gray">Explore</p></a>
+            <a href="./watchLater.html"><img src="../assets/icons/watch_later_white_36dp.svg" alt="watch later"></a>
+            <a href="./playlistManagement.html"><img src="../assets/icons/playlist_play_white_36dp.svg" alt="playlist"></a>
+            <a href="./history.html"><img src="../assets/icons/history_white_36dp.svg" alt="profile"></a>
+            <a href="./logIn.html"><button class="btn btn-lightblue">Log In</button></a>
+        </div>
+    </nav>
+
+    <main>
+        <div class="log-in-container">
+
+            <form action="" method="post">
+                <div class="card shadow">
+
+                    <h3 class="title">Sign Up</h3>
+                    <div class="input-group">
+                        <label for="fname">First Name</label>
+                        <input type="text" name="fname" id="fname" placeholder="Maitra" required/>
+                    </div>
+                    <div class="input-group">
+                        <label for="lname">Last Name</label>
+                        <input type="text" name="lname" id="lname" placeholder="Khatri" required/>
+                    </div>
+                    <div class="input-group">
+                        <label for="email">Email address</label>
+                        <input type="email" name="email" id="emailid" placeholder="maitrakhatri@gozo.com" required/>
+                    </div>
+                    <div class="input-group">
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password" required/>
+                    </div>
+                    <span class="checkbox">
+                        <input type="checkbox" name="TnC" id="tnc" required>I accept all Terms & Conditions
+                    </span>
+                    <button class="btn btn-lightblue">Create New Account</button>
+                    <a href="./logIn.html">Already have an account</a>
+                </div>
+            </form>
+
+        </div>
+    </main>
+    
+</body>
+</html>
