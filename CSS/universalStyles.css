@@ -70,3 +70,16 @@ main#homepage {
 .video-title {
     font-weight: bold;
 }
+
+.channel-name {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.heading {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
